@@ -10,7 +10,7 @@ This is your first note. You'll find it in the [`notes/`](https://github.com/max
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
 
-- [프로젝트와_내_챗GPT_차이점](/_notes/프로젝트와_내_챗GPT_차이점.md)
+- [프로젝트와_내_챗GPT_차이점][_notes/프로젝트와_내_챗GPT_차이점.md]
 - Using the note title: [[a note about cats]]
 - Using the note's filename: [[cats]]
 - Using the note's title, with a label: [[A note about cats|link to the note about cats using the note title]]
@@ -126,3 +126,6 @@ This digital garden template is free, open-source, and [available on GitHub here
 The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
 
 Go forth, have fun, and learn new something every day! ✌️
+
+
+[def]: /_notes/프로젝트와_내_챗GPT_차이점.md
