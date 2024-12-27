@@ -9,6 +9,137 @@ description: "📌 피피티프로 온라인 클래스https://101creator.page.li
 tags:
   - "clippings"
 ---
+
+# **레퍼런스**
+
+1. [Pinterest](https://kr.pinterest.com/)
+
+2. [Behance](https://www.behance.net/)
+
+3. [Dribble](https://dribbble.com/)
+
+4. [Savee](https://savee.it/)
+
+  
+
+# **아이콘/일러스트**
+
+5. [Freepik](https://www.freepik.com/)
+
+6. [Flaticon](https://www.flaticon.com/)
+
+7. [Lordicon](https://lordicon.com/)
+
+8. [Vectorshelf](https://vectorshelf.com/)
+
+9. [Storyset](https://storyset.com/)
+
+10. [Blush Design](https://blush.design/)
+
+11. [Nawmin](https://nawmin.stores.jp/)
+
+12. [Enpitsu Sozai](https://enpitsu-sozai.com/)
+
+13. [Undraw](https://undraw.co/illustrations)
+
+14. [Loosedrawing](https://loosedrawing.com/)
+
+  
+
+# **이미지**
+
+15. [Unsplash](https://unsplash.com/ko)
+
+16. [Pexels](https://www.pexels.com/ko-kr/)
+
+17. [Life of Pix](https://www.lifeofpix.com/)
+
+18. [Everypixel](https://www.everypixel.com/)
+
+19. [Freepnglogo](https://www.freepnglogos.com/)
+
+  
+
+# **영상/GIF**
+
+20. [Pexels Video](https://www.pexels.com/videos/)
+
+21. [Videvo](https://www.videvo.net)
+
+22. [Videezy](https://www.videezy.com/)
+
+23. [Giphy](https://giphy.com/)
+
+  
+
+# **폰트**
+
+24. [눈누](https://noonnu.cc)
+
+25. [Dafont](https://www.dafont.com/)
+
+26. [폰트폰트](https://fontfont.app/)
+
+  
+
+# **변환**
+
+27. [iLovePDF](https://www.ilovepdf.com/ko)
+
+28. [Convertio](https://convertio.co/kr/)
+
+29. [Adobe Express SVG](https://www.adobe.com/kr/express/feature/image/convert/png-to-svg)
+
+30. [Pixel It](https://giventofly.github.io/pixelit)
+
+  
+
+# **배경제거**
+
+31. [Adobe Express Background](https://www.adobe.com/kr/express/feature/image/remove-background)
+
+32. [RemoveBG](https://www.remove.bg/ko)
+
+  
+
+# **목업**
+
+33. [Smartmockups](https://smartmockups.com/)
+
+34. [DIY Book Covers](https://diybookcovers.com/)
+
+  
+
+# **AI**
+
+35. [Adobe Firefly](https://firefly.adobe.com/)
+
+36. [DALL-E 3](https://www.bing.com/images/create?FORM=GENILP)
+
+37. [Playground AI](http://playgroundai.com/)
+
+38. [Immersity AI](https://www.immersity.ai/)
+
+39. [Dreammachine](https://lumalabs.ai/dream-machine)
+
+40. [Lilys AI](https://lilys.ai/)
+
+41. [SVG.io](https://svg.io/)
+
+42. [Khroma](https://www.khroma.co/)
+
+  
+
+# **3D**
+
+43. [Sketchfab](https://sketchfab.com/feed)
+
+44. [Shapefest](https://shapefest.com/)
+
+45. [Figma Community](https://www.figma.com/community)
+
+  
+***
 ![](https://www.youtube.com/watch?v=yCAVdwI_3vQ)  
 
 ![[Pasted image 20241227164204.png]]
@@ -72,138 +203,6 @@ tags:
   
   ***
 옵시디언에서 클릭 가능한 링크 문법은 [사이트명](사이트URL) 형식입니다. 아래는 요청하신 자료를 옵시디언에서 바로 클릭하여 이동할 수 있도록 변환한 내용입니다:
-
-  
-
-**레퍼런스**
-
-1. [Pinterest](https://kr.pinterest.com/)
-
-2. [Behance](https://www.behance.net/)
-
-3. [Dribble](https://dribbble.com/)
-
-4. [Savee](https://savee.it/)
-
-  
-
-**아이콘/일러스트**
-
-5. [Freepik](https://www.freepik.com/)
-
-6. [Flaticon](https://www.flaticon.com/)
-
-7. [Lordicon](https://lordicon.com/)
-
-8. [Vectorshelf](https://vectorshelf.com/)
-
-9. [Storyset](https://storyset.com/)
-
-10. [Blush Design](https://blush.design/)
-
-11. [Nawmin](https://nawmin.stores.jp/)
-
-12. [Enpitsu Sozai](https://enpitsu-sozai.com/)
-
-13. [Undraw](https://undraw.co/illustrations)
-
-14. [Loosedrawing](https://loosedrawing.com/)
-
-  
-
-**이미지**
-
-15. [Unsplash](https://unsplash.com/ko)
-
-16. [Pexels](https://www.pexels.com/ko-kr/)
-
-17. [Life of Pix](https://www.lifeofpix.com/)
-
-18. [Everypixel](https://www.everypixel.com/)
-
-19. [Freepnglogo](https://www.freepnglogos.com/)
-
-  
-
-**영상/GIF**
-
-20. [Pexels Video](https://www.pexels.com/videos/)
-
-21. [Videvo](https://www.videvo.net)
-
-22. [Videezy](https://www.videezy.com/)
-
-23. [Giphy](https://giphy.com/)
-
-  
-
-**폰트**
-
-24. [눈누](https://noonnu.cc)
-
-25. [Dafont](https://www.dafont.com/)
-
-26. [폰트폰트](https://fontfont.app/)
-
-  
-
-**변환**
-
-27. [iLovePDF](https://www.ilovepdf.com/ko)
-
-28. [Convertio](https://convertio.co/kr/)
-
-29. [Adobe Express SVG](https://www.adobe.com/kr/express/feature/image/convert/png-to-svg)
-
-30. [Pixel It](https://giventofly.github.io/pixelit)
-
-  
-
-**배경제거**
-
-31. [Adobe Express Background](https://www.adobe.com/kr/express/feature/image/remove-background)
-
-32. [RemoveBG](https://www.remove.bg/ko)
-
-  
-
-**목업**
-
-33. [Smartmockups](https://smartmockups.com/)
-
-34. [DIY Book Covers](https://diybookcovers.com/)
-
-  
-
-**AI**
-
-35. [Adobe Firefly](https://firefly.adobe.com/)
-
-36. [DALL-E 3](https://www.bing.com/images/create?FORM=GENILP)
-
-37. [Playground AI](http://playgroundai.com/)
-
-38. [Immersity AI](https://www.immersity.ai/)
-
-39. [Dreammachine](https://lumalabs.ai/dream-machine)
-
-40. [Lilys AI](https://lilys.ai/)
-
-41. [SVG.io](https://svg.io/)
-
-42. [Khroma](https://www.khroma.co/)
-
-  
-
-**3D**
-
-43. [Sketchfab](https://sketchfab.com/feed)
-
-44. [Shapefest](https://shapefest.com/)
-
-45. [Figma Community](https://www.figma.com/community)
-
-  
 
 위 내용을 옵시디언에 복사해서 붙여 넣으면 각 링크를 클릭하면 바로 해당 사이트로 이동할 수 있습니다. 😊
 ***
