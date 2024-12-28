@@ -89,4 +89,4 @@ AI가 최상의 답을 할 수 있도록 훈련시키고 AI로부터 최상의 �
 프롬프트 엔지니어 커리어를 계획하고 있다면, 코드스테이츠 인공지능(AI) 부트캠프와 함께 도전해 보세요.
 
 <sub><strong>글</strong> 홍미연, 이기한 Learning Architect (인공지능(AI) 부트캠프)</sub>  
-<sub><strong>편집</strong> 최인성 Content Manager</sub>
+==편집== 최인성 Content Manager
