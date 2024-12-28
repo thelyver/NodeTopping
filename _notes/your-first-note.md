@@ -13,6 +13,7 @@ To link to another note, you can use multiple syntaxes. The following four use t
 
 - [[위로 권진아]]
 - [[prompt-prompt_engineering]]
+- [[AI 프롬프트와 프롬프트 엔지니어링 정의와 예시 - 코드스테이츠 공식 블로그]]
 - [[생성형 경제가 다가온다]]
 - [[PPT 관련 웹사이트 총정리]]
 - 두번째 포스팅 2 [[20241223_노드토핑 테스트 01]]
