@@ -10,6 +10,7 @@ This is your first note. You'll find it in the [`notes/`](https://github.com/max
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
 
+- [AI 프롬프트와 프롬프트 엔지니어링  정의와 예시 - 코드스테이츠 공식 블로그]
 - [[PPT 관련 웹사이트 총정리]]
 - 두번째 포스팅 2 [[20241223_노드토핑 테스트 01]]
 - [두번째 포스팅](<20241223_노드토핑 테스트 01.md>)
