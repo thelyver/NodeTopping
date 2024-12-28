@@ -12,6 +12,7 @@ To link to another note, you can use multiple syntaxes. The following four use t
 
 
 - [[위로 권진아]]
+- [[prompt-prompt_engineering]]
 - [[생성형 경제가 다가온다]]
 - [[PPT 관련 웹사이트 총정리]]
 - 두번째 포스팅 2 [[20241223_노드토핑 테스트 01]]
