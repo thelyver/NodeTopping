@@ -1,14 +1,15 @@
 ---
-title: "AI 프롬프트와 프롬프트 엔지니어링 정의와 예시 - 코드스테이츠 공식 블로그"
-source: "https://www.codestates.com/blog/content/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81"
-author:
-published:
+title: AI 프롬프트와 프롬프트 엔지니어링 정의와 예시
+source:
+  - https://www.codestates.com/blog/content/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81
+author: 
+published: 
 created: 2024-12-28
-description: "생성형 AI 서비스가 우리 삶에 미치는 영향이 커지면서 생성형 AI 서비스와 소통할 때 필요한 '프롬프트'에 대한 관심도 커졌는데요. 프롬프트와 프롬프트 엔지니어링이 무엇인지 자세히 알아보겠습니다."
+description: 생성형 AI 서비스가 우리 삶에 미치는 영향이 커지면서 생성형 AI 서비스와 소통할 때 필요한 '프롬프트'에 대한 관심도 커졌는데요. 프롬프트와 프롬프트 엔지니어링이 무엇인지 자세히 알아보겠습니다.
 tags:
-  - "clippings"
+  - clippings
 ---
-# AI 프롬프트와 프롬프트 엔지니어링 정의와 예시
+# AI 프롬프트와 프롬프트 엔지니어링 정의와 예시- 코드스테이츠 공식 블로그
 
 2023년 05월 24일
 
