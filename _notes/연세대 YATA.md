@@ -1,4 +1,5 @@
 YATA dataflow diagram
+![[Pasted image 20241229023510.png]]
 
 ```mermaid
 graph TD
