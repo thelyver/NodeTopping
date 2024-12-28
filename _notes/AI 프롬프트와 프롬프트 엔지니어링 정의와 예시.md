@@ -1,21 +1,4 @@
----
-title: AI 프롬프트와 프롬프트 엔지니어링 정의와 예시 - 코드스테이츠 공식 블로그
-source:
-  - https://www.codestates.com/blog/content/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81
-author: 
-published: 
-created: 2024-12-29
-description: 생성형 AI 서비스가 우리 삶에 미치는 영향이 커지면서 생성형 AI 서비스와 소통할 때 필요한 '프롬프트'에 대한 관심도 커졌는데요. 프롬프트와 프롬프트 엔지니어링이 무엇인지 자세히 알아보겠습니다.
-tags:
-  - clippings
----
-[
-
-인사이트
-
-](https://www.codestates.com/blog/category/insight)
-
-AI 프롬프트와 프롬프트 엔지니어링 | 정의와 예시
+# AI 프롬프트와 프롬프트 엔지니어링 정의와 예시- 코드스테이츠 공식 블로그
 
 2023년 05월 24일
 
@@ -25,10 +8,10 @@ ChatGPT, 미드저니 등 생성형 AI를 활용한 혁신적이고 편리한 �
 
 생성형 AI 서비스가 우리 삶에 미치는 영향이 커지면서 **생성형 AI 서비스와 소통할 때 필요한 ‘프롬프트’**에 대한 관심도 커졌는데요. **프롬프트와 프롬프트 엔지니어링이 무엇인지** 자세히 알아보겠습니다.
 
-![](https://i0.wp.com/blogcodestates.wpcomstaging.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%8C%80%ED%91%9C%EC%9D%B4%EB%AF%B8%EC%A7%80-1024x664.jpg?resize=691%2C447&ssl=1)
+![코드스테이츠 AI 부트캠프](https://i0.wp.com/blogcodestates.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%8C%80%ED%91%9C%EC%9D%B4%EB%AF%B8%EC%A7%80.jpg?w=1500&ssl=1)
 
-## 프롬프트와  
-프롬프트 엔지니어링
+
+## 프롬프트와  프롬프트 엔지니어링
 
 ### 프롬프트란?
 
@@ -38,7 +21,7 @@ ChatGPT, 미드저니 등 생성형 AI를 활용한 혁신적이고 편리한 �
 
 그렇지만 mkdir나 rm -rf 등 **수많은 명령어와 옵션이 존재하여 익숙해지기까지 시간이 오래 걸리고, 많은 명령어를 이용해도 컴퓨터가 사전에 정해놓은 결과만 제시할 수 있는 단점**이 있었죠. 예를 들면 mkdir은 디렉토리 만들기, rm은 파일 지우기, pwd는 현재 위치한 경로 출력이라는 약속을 정해놓기 때문에 컴퓨터가 이와 같은 제한된 작업만 수행할 수 있다는 것입니다.
 
-![](https://i0.wp.com/blogcodestates.wpcomstaging.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_01-1-1024x603.jpg?resize=712%2C419&ssl=1)
+![코드관련](https://i0.wp.com/blogcodestates.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_01-1.jpg?resize=1536%2C904&ssl=1)
 
 최근 생성형 AI 모델이 발전하고 이를 활용한 서비스가 등장하면서 컴퓨터는 기존의 명령어가 아닌 자연어, 즉 인간의 언어 그대로를 입력받을 수 있게 되었습니다. 컴퓨터가 인간의 언어를 그대로 이해하고 명령을 수행하기 때문에 사용자는 기존 시스템보다 훨씬 자유롭고 다양한 결과물을 바랄 수 있게 되었죠. 이처럼 **생성형 AI에게 어떤 행동을 해야 하는지 자연어로 설명해 원하는 결과물을 출력할 수 있게 하는 입력값을 프롬프트(Prompt)**라고 합니다.
 
@@ -52,7 +35,7 @@ ChatGPT, 미드저니 등 생성형 AI를 활용한 혁신적이고 편리한 �
 
 예를 들어 어떤 사람에게 명령을 내린다고 생각해 보겠습니다. **명령을 받은 대상이 가진 역량을 최대로 끌어냄과 동시에 원하는 결과물을 얻기 위해서는 우리가 지시하는 명령이 섬세하고 정확해야 할 것**입니다. 특히 통상적으로 인간이 가지고 있는 지식보다 방대한 양의 데이터를 학습한 **생성형 AI는 자율적인 판단없이 지시한대로 결과물을 출력하기 때문에 프롬프트를 개발할 때 정교한 구성을 요구**합니다.
 
-![](https://i0.wp.com/blogcodestates.wpcomstaging.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_02-1024x503.png?resize=736%2C361&ssl=1)
+![코드관련](https://i0.wp.com/blogcodestates.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_02.png?resize=1536%2C755&ssl=1)
 
 프롬프트 마켓 ‘챗X’에 등록된 프롬프트 상품들
 
@@ -66,7 +49,7 @@ ChatGPT처럼 텍스트 프롬프트를 입력받아 새로운 텍스트 결과�
 
 **ChatGPT를 이용해 영한 번역 서비스를 기획한다고 했을 때 프롬프트를 어떻게 구성할 수 있을지, 실제 ChatGPT를 이용해 결과물 예시**를 만들어 보았습니다.
 
-![](https://i0.wp.com/blogcodestates.wpcomstaging.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B801-1024x230.png?resize=750%2C168&ssl=1)
+![](https://i0.wp.com/blogcodestates.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B801.png?w=1396&ssl=1)
 
 ChatGPT에 영어 문장 번역을 요청하면 정확한 번역이 수행되긴 하지만 대화형 답변을 기본으로 하는 만큼 서비스로 구현하기에는 불필요한 문구가 대답에 포함되어 있습니다. 또한 번역 요구 없이 문장만 입력하면 원하는 결과를 출력하지 못할 것입니다.
 
@@ -74,17 +57,19 @@ ChatGPT에 영어 문장 번역을 요청하면 정확한 번역이 수행되긴
 
 실제 서비스 구현을 위한 프롬프트는 아래와 같이 설계해 볼 수 있습니다.
 
-![](https://i0.wp.com/blogcodestates.wpcomstaging.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B802-1024x617.png?resize=750%2C452&ssl=1)
+![](https://i0.wp.com/blogcodestates.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B802.png?w=1410&ssl=1)
 
 영한 번역 서비스를 위한 프롬프트를 입력하였습니다. 생성형 AI에 역할을 부여하고 구체적인 프로세스와 예외 사항도 지정해 주었습니다. 결과물 예시도 한번 출력해 보겠습니다.
 
-![](https://i0.wp.com/blogcodestates.wpcomstaging.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B803-1024x220.png?resize=750%2C161&ssl=1)
+![](https://i0.wp.com/blogcodestates.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B803.png?w=1418&ssl=1)
+
 
 지시한 바와 같이 한글 입력시에는 미리 약속된 안내 문구가 출력됩니다. 한국어로 구성된 프롬프트에 대한 결과물 출력이 이루어지지 않습니다.
 
 이번에는 실제 영어 구문을 입력해보겠습니다.
 
-![](https://i0.wp.com/blogcodestates.wpcomstaging.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B804-974x1024.png?resize=750%2C789&ssl=1)
+![](https://i0.wp.com/blogcodestates.com/wp-content/uploads/2023/05/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0_%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5AI%EB%B6%80%ED%8A%B8%EC%BA%A0%ED%94%84_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8_%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81_%EB%B2%88%EC%97%AD%EC%A7%88%EB%AC%B804.png?w=1404&ssl=1)
+
 
 이렇게 보다 구체적인 프롬프트를 설계하여 제시하면 원하는 서비스를 쉽게 기획할 수 있습니다.
 
@@ -97,7 +82,7 @@ ChatGPT에 영어 문장 번역을 요청하면 정확한 번역이 수행되긴
 
 AI가 최상의 답을 할 수 있도록 훈련시키고 AI로부터 최상의 답을 이끌어 내는 일을 하는 사람이 바로 ‘프롬프트 엔지니어’입니다. 프롬프트 엔지니어가 하는 일이 더 궁금하다면 아래 아티클을 더 읽어 보세요.
 
-- [==프롬프트 엔지니어 | 정의, 하는 일, 필요 역량과 전망==](https://www.codestates.com/blog/content/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-%EC%A0%95%EC%9D%98)
+- [프롬프트 엔지니어 | 정의, 하는 일, 필요 역량과 전망](https://www.codestates.com/blog/content/%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4-%EC%A0%95%EC%9D%98)
 
 **코드스테이츠 인공지능(AI) 부트캠프**는 AI 지식을 체계적으로 학습할 수 있는 커리큘럼을 구성되어 있습니다. 과제와 프로젝트 등을 통해 가설을 수집하고 데이터를 분석하여 다양한 문제를 해결하는 경험도 제공하는데요. 이러한 학습과 경험은 프롬프트 엔지니어에게 필요한 역량과도 맞닿아 있죠.
 
@@ -105,16 +90,3 @@ AI가 최상의 답을 할 수 있도록 훈련시키고 AI로부터 최상의 �
 
 <sub><strong>글</strong> 홍미연, 이기한 Learning Architect (인공지능(AI) 부트캠프)</sub>  
 <sub><strong>편집</strong> 최인성 Content Manager</sub>
-
----
-
-🧑🏻‍💻 **이론 학습부터 실전, 그리고 취업까지**  
-**확실한 IT 커리어의 시작**
-
-[
-
-목록 보기
-
-](https://www.codestates.com/blog/category/insight)
-
-추천글
